@@ -40,6 +40,7 @@ if (argv.v || argv.version) {
 } else {
 
   console.log(chalk.underline.bold('TinyPNG CLI'));
+  console.log(chalk.underline.bold('IFWATER'));
   console.log('v' + version + '\n');
 
   var files = argv._.length ? argv._ : ['.'];
